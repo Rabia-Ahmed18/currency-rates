@@ -24,12 +24,12 @@ export default async function CoinMarketSSR() {
             <br/>
             <br/>
             <Button variant="default" size="lg">
-              {" "}
+        
               BTC: {data?.rates?.BTC}
             </Button>
             <br />
             <Button variant="destructive" size="lg">
-              {" "}
+        
               BNB: {data?.rates?.BNB}
             </Button>
             
@@ -37,23 +37,22 @@ export default async function CoinMarketSSR() {
             
             <br />
             <Button variant="destructive" size="lg">
-              {" "}
+        
               USDT: {data?.rates?.USDT}
             </Button>
             <br/>
             <Button variant="secondary" size="lg">
-              {" "}
-              SOL: {data?.rates?.SOL}
+                      SOL: {data?.rates?.SOL}
             </Button>
             <br/>
             <Button variant="default" size="lg">
-              {" "}
+        
               DOGE: {data?.rates?.DOGE}
             </Button>
            
             <br/>
             <Button variant="secondary" size="lg">
-              {" "}
+        
               ADA: {data?.rates?.ADA}
             </Button>
             </div>

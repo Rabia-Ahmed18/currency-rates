@@ -33,29 +33,29 @@ export default async function CoinMarketSSG() {
              
             <br />
             <Button variant="destructive" size="lg">
-              {" "}
+              
               USDT: {data?.rates?.USDT}
             </Button>
             <br/>
             <Button variant="secondary" size="lg">
-              {" "}
+              
               SOL: {data?.rates?.SOL}
             </Button>
             <br/>
             <Button variant="default" size="lg">
-              {" "}
+              
               DOGE: {data?.rates?.DOGE}
             </Button>
            
             <br/>
             <Button variant="secondary" size="lg">
-              {" "}
+              
               ADA: {data?.rates?.ADA}
             </Button>
             </div>
            < Button variant="ghost" size="sm">
               <Link href="/"></Link>
-               👈🏻 Back</Button>
+                Back</Button>
             </div>
 
       </>

@@ -5,14 +5,16 @@ import Link from "next/link";
 
 export default function CoinMarketCSR (){
     const API_KEY="b93b89ca9f5dc27571635fa38e1c0fcb";
-    const [data , updatedData] =useState<any>(null);
+
+    // USE STATE
+    const [data , setData] =useState<any>(null);
 
 
     useEffect(() => {
         fetch (`https://api.coinlayer.com/api.live?access_key=${API_KEY}`)
         .then((response) => response.json)
         .then((jsonConverted) =>{
-          updatedData(jsonConverted);
+          setData(jsonConverted);
         });
     
     
